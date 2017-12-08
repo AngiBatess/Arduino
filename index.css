@@ -4,12 +4,12 @@ body>header>img {
   display: block;
   width: 100%;
 }
-
+nav {background-color: rgb(218, 164, 71);}
 ul {
-  margin: 0;
+  margin: auto;
+width: 75%;
   padding: 5px;
   overflow: hidden;
-  background-color: rgb(218, 164, 71);
   list-style: none;
 }
 
@@ -17,7 +17,7 @@ li {
   box-sizing: border-box;
   float: left;
   /*padding: 5px;*/
-  width: 25%;
+  width: 33.3%;
 }
 
 li a {
@@ -25,7 +25,7 @@ li a {
   color: white;
   text-align: center;
   text-decoration: none;
-  padding-left: 350px;
+
 }
 
 li a:hover {
