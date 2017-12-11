@@ -1,7 +1,7 @@
 @charset "UTF-8";
-*{
+/*{
   outline: 1px solid red;
-}
+} */
 body>header>img {
   display: block;
   width: 100%;
@@ -43,11 +43,12 @@ body {
   width: 95%;
   background-color: rgb(128, 24, 58);
 }
-body#fire {background-image: url(fire.gif);
-position: fixed; }
+
 h1 {font-size: 50px; font-family: cursive; Grand Hotel;
   color: white; text-align: center;
 }
+.circle:hover
+{border-radius:50%;}
 
 /* footer */
 footer {clear: both;

@@ -67,7 +67,9 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
+    color: white;
 }
+
 /* footer*/
 footer {clear: both;
 font-family: cursive;
