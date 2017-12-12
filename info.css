@@ -64,6 +64,61 @@ body > section#rightcol {
 .circle {display: block;
   border-radius: 50%;
 background-color: rgb(224, 37, 106);}
+h2 {color: white;
+font-size: 22pt; }
+p {color: white;
+font-size: 16pt;
+padding-top: 5px;}
+.chef {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 255px;
+  max-width: 315px;
+  height: 220px;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.chef img {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+}
+.chef:hover img,
+.chef.hover img {
+  -webkit-transform: translateX(130px);
+  transform: translateX(130px);
+}
+h3 {float: left;
+position: absolute;
+color: white;
+vertical-align: baseline;
+letter-spacing: 3;
+font-size: 12pt;
+line-height: 2.0;}
+
+blockquote {font-style: italic;
+font-size: 12pt;
+display: block;}
+.circle {font-size: 12pt;
+font-style: italic;
+display: block;
+padding: 10px;}
+
+
+
+
+
+
+
+
+
+
+
+
 /* footer */
 footer {clear: both;
 font-family: cursive;
