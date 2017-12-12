@@ -3,7 +3,7 @@ body>header>img {
   display: block;
   width: 100%;
 }
-nav {background-color: rgb(218, 164, 71);}
+nav {background-color: rgb(111, 25, 95);}
 ul {
   margin: auto;
 width: 75%;
@@ -27,7 +27,8 @@ li a {
   }
 
 li a:hover {
-  background-color: rgba(91, 68, 172);
+  background-color: rgb(162, 227, 134);
+  opacity: .7;
 }
 /* Body */
 body {
@@ -36,7 +37,7 @@ body {
   max-width: 960px;
   min-width: 640px;
   width: 95%;
-  background-color: rgb(128, 24, 58);
+  background-image: linear-gradient(to bottom, #660033 0%, #ff99cc 100%);
 }
 .SideBar {
     height: auto;
@@ -45,7 +46,7 @@ body {
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #ddbc3a;
+    background-color: #cb79c0;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
 }
@@ -171,9 +172,9 @@ th, td {
 
 }
 
-tr:nth-child(even) {background-color: #d53c16;
+tr:nth-child(even) {background-color: #ad74be;
 opacity: .6;}
-tr:nth-child(odd) {background-color: rgb(186, 82, 112);
+tr:nth-child(odd) {background-color: rgb(189, 124, 142);
 opacity: .6;}
 /* footer */
 footer {clear: both;

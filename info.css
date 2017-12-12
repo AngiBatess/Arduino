@@ -6,7 +6,7 @@ body>header>img {
   display: block;
   width: 100%;
 }
-nav {background-color: rgb(218, 164, 71);}
+nav {background-color: rgb(111, 25, 95);}
 ul {
   margin: auto;
   width: 75%;
@@ -31,16 +31,18 @@ li a {
 }
 
 li a:hover {
-  background-color: rgba(222, 64, 88);
+  background-color: rgb(162, 227, 134);
+  opacity: .7;
 
 }
 /* Body */
 body {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
   min-width: 640px;
-  background-color: rgb(128, 24, 58);
+  width: 95%;
+  background-image: linear-gradient(to bottom, #660033 0%, #ff99cc 100%);
 }
 
 h1 {font-size: 50px; font-family: cursive; Grand Hotel;
