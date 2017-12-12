@@ -4,7 +4,8 @@ body>header>img {
   display: block;
   width: 100%;
 }
-nav {background-color: rgb(218, 164, 71);}
+nav {background-color: rgb(218, 164, 71);
+}
 ul {
   margin: auto;
 width: 75%;
@@ -35,14 +36,15 @@ li a:hover {
 transition: outline 0.6s linear;
 margin: 0.5em;} */
 /* Body */
-body {
+ body {
   margin-left: auto;
   margin-right: auto;
   max-width: 960px;
   min-width: 640px;
   width: 95%;
-  background-color: rgb(128, 24, 58);
+  background-color: rgb(131, 16, 83); 
 }
+
 h1 {font-size: 50px; font-family: cursive; Grand Hotel;
   color: white; text-align: center;
 }
