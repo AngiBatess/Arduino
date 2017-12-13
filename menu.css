@@ -69,7 +69,7 @@ h1 {font-size: 50px; font-family: cursive; Grand Hotel;
 h2 {font-size: 25px; font-family: sans-serif;
 color: white;
 text-align: center;}
-/*.Entrees {
+/*.Entrees IGNORE THIS> I DIDN"T DELTE BECAUSE I DID ALOT OF EXPERMENTING WITH TUTORIAL ONLINE AND TRIED TO SPICE IT UP. {
   position: relative;
   padding: 25vh 10%;
   min-height: 100vh;
@@ -119,7 +119,7 @@ img:last-of-type {
 }
 
 .Slide-wrap {
-  width: 2912px;
+  width: 5824px;
   -webkit-animation: slide 12s ease infinite;
 }
 

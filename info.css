@@ -68,7 +68,8 @@ h2 {color: white;
 font-size: 22pt; }
 p {color: white;
 font-size: 16pt;
-padding-top: 5px;}
+padding-top: 5px;
+font-style: fantasy;}
 .chef {
   position: relative;
   float: left;
@@ -98,9 +99,9 @@ color: white;
 vertical-align: baseline;
 letter-spacing: 3;
 font-size: 12pt;
-line-height: 2.0;}
+line-height: 1;}
 
-blockquote {font-style: italic;
+blockquote {font-style: italic; fantasy,
 font-size: 12pt;
 display: block;}
 .circle {font-size: 12pt;
