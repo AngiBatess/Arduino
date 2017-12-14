@@ -2,11 +2,16 @@
 /*{
   outline: 1px solid red;
 } */
+
 body>header>img {
   display: block;
   width: 100%;
 }
-nav {background-color: rgb(111, 25, 95);}
+
+nav {
+  background-color: rgb(111, 25, 95);
+}
+
 ul {
   margin: auto;
   width: 75%;
@@ -27,15 +32,15 @@ li a {
   color: white;
   text-align: center;
   text-decoration: none;
-
 }
 
 li a:hover {
   background-color: rgb(162, 227, 134);
   opacity: .7;
-
 }
+
 /* Body */
+
 body {
   margin-left: auto;
   margin-right: auto;
@@ -45,31 +50,53 @@ body {
   background-image: linear-gradient(to bottom, #660033 0%, #ff99cc 100%);
 }
 
-h1 {font-size: 50px; font-family: cursive; Grand Hotel;
-  color: white; text-align: center;
+h1 {
+  font-size: 50px;
+  font-family: cursive;
+  Grand Hotel;
+  color: white;
+  text-align: center;
 }
-body > section#leftcol {
-	width: 70%;
-	float: left;
-	margin-left: 0%;
-	margin-right: 4%;
+
+body>section#leftcol {
+  width: 70%;
+  float: left;
+  margin-left: 0%;
+  margin-right: 4%;
   background-color: rgb(131, 16, 83);
 }
 
-body > section#rightcol {
-	width: 24%;
-	float: left;
-	margin-right: 2%;
+body>section#rightcol {
+  width: 24%;
+  float: inherit;
+  margin-right: 2%;
 }
-.circle {display: block;
+
+#middlecol {
+  width: auto;
+  float: center;
+  margin-right: 2%;
+}
+
+
+.circle {
+  display: block;
   border-radius: 50%;
-background-color: rgb(224, 37, 106);}
-h2 {color: white;
-font-size: 22pt; }
-p {color: white;
-font-size: 16pt;
-padding-top: 5px;
-font-style: fantasy;}
+  background-color: rgb(224, 37, 106);
+}
+
+h2 {
+  color: white;
+  font-size: 22pt;
+}
+
+p {
+  color: white;
+  font-size: 16pt;
+  padding-top: 5px;
+  font-style: fantasy;
+}
+
 .chef {
   position: relative;
   float: left;
@@ -81,6 +108,7 @@ font-style: fantasy;}
   width: 100%;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
+
 .chef img {
   height: 100%;
   position: absolute;
@@ -88,40 +116,40 @@ font-style: fantasy;}
   -webkit-transition: all 2s ease-out;
   transition: all 2s ease-out;
 }
-.chef:hover img,
-.chef.hover img {
+
+.chef:hover img, .chef.hover img {
   -webkit-transform: translateX(130px);
   transform: translateX(130px);
 }
-h3 {float: left;
-position: absolute;
-color: white;
-vertical-align: baseline;
-letter-spacing: 3;
-font-size: 12pt;
-line-height: 1;}
 
-blockquote {font-style: italic; fantasy,
-font-size: 12pt;
-display: block;}
-.circle {font-size: 12pt;
-font-style: italic;
-display: block;
-padding: 10px;}
+h3 {
+  float: left;
+  position: absolute;
+  color: white;
+  vertical-align: baseline;
+  letter-spacing: 3;
+  font-size: 12pt;
+  line-height: 1;
+}
 
+blockquote {
+  font-style: italic;
+  fantasy, font-size: 12pt;
+  display: block;
+}
 
-
-
-
-
-
-
-
-
-
+.circle {
+  font-size: 12pt;
+  font-style: italic;
+  display: block;
+  padding: 10px;
+}
 
 /* footer */
-footer {clear: both;
-font-family: cursive;
-color: white;
-text-align: center;}
+
+footer {
+  clear: both;
+  font-family: cursive;
+  color: white;
+  text-align: center;
+}
