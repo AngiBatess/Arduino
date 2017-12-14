@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*{
   outline: 1px solid red;
-} */
+}*/
 
 body>header>img {
   display: block;
@@ -52,39 +52,58 @@ body {
 
 h1 {
   font-size: 50px;
-  font-family: cursive;
-  Grand Hotel;
+  font-family: cursive, "Grand Hotel";
   color: white;
   text-align: center;
 }
 
 body>section#leftcol {
   width: 70%;
-  float: left;
-  margin-left: 0%;
-  margin-right: 4%;
+  /*float: left;*/
+  margin:auto;
   background-color: rgb(131, 16, 83);
 }
 
 body>section#rightcol {
-  width: 24%;
-  float: inherit;
+  /*width: 24%;*/
+  /*float: inherit;*/
   margin-right: 2%;
 }
 
-#middlecol {
+/*body>section#middlecol {
   width: auto;
-  float: center;
-  margin-right: 2%;
-}
+  float: inherit;
+  margin-right: -22%;
+}*/
 
+body>section#lastcol {
+  /*width: auto;*/
+  /*float: left;*/
+  /*margin-right: 2%;*/
+}
 
 .circle {
+  float: left;
   display: block;
   border-radius: 50%;
   background-color: rgb(224, 37, 106);
+  font-size: 12pt;
+  font-style: italic;
+  display: block;
+  padding: 40px;
+  box-sizing: border-box;
+  width: 33%;
 }
-
+blockquote {
+  font-style: italic;
+  font-size: 12pt;
+  display: block;
+}
+.clearfix{
+  display: table;
+  content: "";
+  clear:both;
+}
 h2 {
   color: white;
   font-size: 22pt;
@@ -132,18 +151,6 @@ h3 {
   line-height: 1;
 }
 
-blockquote {
-  font-style: italic;
-  fantasy, font-size: 12pt;
-  display: block;
-}
-
-.circle {
-  font-size: 12pt;
-  font-style: italic;
-  display: block;
-  padding: 10px;
-}
 
 /* footer */
 
